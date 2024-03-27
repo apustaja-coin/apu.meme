@@ -1,14 +1,7 @@
-# Creative Theme for Jekyll
+# APU APUSTAJA / SOL
 
-A Jekyll implementation of the [Creative Theme](http://startbootstrap.com/template-overviews/creative/) template by [Start Bootstrap](http://startbootstrap.com).
+APU is a muuvement to unite everyone in crypto. Backed by number go up technology, the bull we know and love is here to lead the charge. 
+Launched with the starting supply of the U.S. dollar, mutoshi and his delinquents are on a mission to dethrone the establishment and forge the ultimate decentralized currency. 
 
-Creative is a one page Bootstrap theme for creatives, small businesses, and other multipurpose uses.
-The theme includes a number of rich features and plugins that you can use as a great boilerplate for your next Jekyll project! 
-
-See it live in action at <https://volny.github.io/creative-theme-jekyll/>
-
-## To use the Creative Theme template in your project
-
-- Start by adding your info in `_config.yml`
-- In `_layouts/front.html` reorder or remove section as you prefer.
+Join the stampede today.
 
