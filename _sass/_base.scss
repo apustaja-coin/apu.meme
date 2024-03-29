@@ -76,6 +76,7 @@ aside {
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
+        -webkit-text-stroke: 1px $theme-primary-shade;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
@@ -112,7 +113,8 @@ aside {
         background-color: transparent;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: $theme-primary;
+            -webkit-text-stroke: 1px $theme-primary-shade;
             &:hover,
             &:focus {
                 color: white;
@@ -120,7 +122,8 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: $theme-primary;
+            -webkit-text-stroke: 1px $theme-primary-shade;
             &:hover {
                 color: white;
             }
@@ -130,6 +133,7 @@ aside {
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
+                -webkit-text-stroke: 1px $theme-primary-shade;
                 font-size: 20px;
                 &:hover,
                 &:focus {
@@ -138,7 +142,8 @@ aside {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: $theme-dark;
+                color: $theme-primary;
+                -webkit-text-stroke: 1px $theme-primary-shade;
                 &:hover {
                     color: $theme-primary;
                 }
