@@ -70,8 +70,6 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: $theme-dark;
-    border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -79,7 +77,6 @@ aside {
         -webkit-text-stroke: 1px $theme-primary-shade;
         @include sans-serif-font;
         font-weight: 700;
-        text-transform: uppercase;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -89,7 +86,6 @@ aside {
         > li {
             > a,
             > a:focus {
-                text-transform: uppercase;
                 font-weight: 700;
                 font-size: 20px;
                 color: $theme-dark;
@@ -129,8 +125,7 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
-            border-color: rgba($theme-dark, .5);
+            background-color: $theme-dark;
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 -webkit-text-stroke: 1px $theme-primary-shade;
@@ -174,7 +169,6 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -259,7 +253,6 @@ header {
                 padding: 0 15px;
             }
             .project-category {
-                text-transform: uppercase;
                 font-weight: 600;
                 font-size: 14px;
             }
@@ -314,15 +307,14 @@ header {
 
 .btn {
     @include sans-serif-font;
-    border: 2px solid black;
+    border: 2px solid #3D3217;
     border-radius: 12px;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 20px;
 }
 
 .btn-xl {
-    padding: 16px 32px 12px 32px;
+    padding: 12px 24px;
 }
 
 // Contact
