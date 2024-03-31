@@ -77,6 +77,7 @@ aside {
 
 .nav-container {
     padding: 12px 32px;
+    backdrop-filter: blur(4px);
 }
 
 .navbar-default {
@@ -205,7 +206,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 35%;
+            top: 50%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
