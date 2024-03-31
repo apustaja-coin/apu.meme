@@ -320,7 +320,7 @@ header {
 
 // Button Styles
 .btn-default {
-    @include button-variant($theme-dark, white, white);
+    @include button-variant($theme-dark, white, white, $theme-dark);
 }
 
 .btn-primary {
