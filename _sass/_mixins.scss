@@ -13,11 +13,12 @@
     -o-background-size: cover;
 }
 
-@mixin button-variant($color, $background, $border)
+@mixin button-variant($color, $background, $border, $text-stroke)
 {
 	color: $color;
 	background-color: $background;
 	border-color: $border;
+	-webkit-text-stroke: 1px $text-stroke;
 	@include transition-all;
 
 	&:hover,
