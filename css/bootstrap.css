@@ -1396,6 +1396,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+  padding-inline-start: unset !important;
 }
 ul ul,
 ol ul,
