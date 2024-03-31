@@ -27,7 +27,12 @@ a {
     }
 }
 
-h1,
+h1 {
+    @include sans-serif-font;
+    -webkit-text-stroke: 1px #2b2746;
+    -webkit-font-smoothing: antialiased;
+}
+
 h2,
 h3,
 h4,
