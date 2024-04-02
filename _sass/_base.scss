@@ -79,6 +79,15 @@ aside {
     padding: 0;
 }
 
+.step-item {
+    display: flex;
+    padding: 16px;
+    border-radius: 16px;
+    background-color:#7468c5;
+    outline: 2px solid white;
+    margin: 16px 0;
+}
+
 // Navigation
 
 .nav-container {
