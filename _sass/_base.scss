@@ -28,8 +28,8 @@ a {
 }
 
 h1 {
-    @include sans-serif-font;
-    -webkit-text-stroke: 1.5px #2b2746;
+    @include heading-font;
+//  -webkit-text-stroke: 1.5px #2b2746;
     -webkit-font-smoothing: antialiased;
     text-shadow: 2px 2px 0px #2b2746, -2px -2px 0px #2b2746, 2px -2px 0px #2b2746, -2px 2px 0px #2b2746, 2px 2px 0px #2b2746;
 }
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    @include heading-font;
 }
 
 p {
