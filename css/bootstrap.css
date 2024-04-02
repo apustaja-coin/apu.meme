@@ -6350,6 +6350,10 @@ button.close {
 }
 .affix {
   position: fixed;
+  background-color: #2b2746;
+}
+.affix-top {
+  background-color: rgba(0,0,0,0.3);
 }
 @-ms-viewport {
   width: device-width;
