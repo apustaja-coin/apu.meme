@@ -88,6 +88,13 @@ aside {
     margin: 16px 0;
 }
 
+.step-item div:first-child {
+    background-color: #00000080;
+    padding: 33px;
+    border-radius: 12px;
+    margin: 0;
+}
+
 // Navigation
 
 .nav-container {
