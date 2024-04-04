@@ -81,6 +81,7 @@ aside {
 
 .step-item {
     display: flex;
+    flex-direction: column;
     padding: 16px;
     border-radius: 16px;
     background-color:#7468c5;
@@ -88,11 +89,17 @@ aside {
     margin: 16px 0;
 }
 
+@media (min-width: 576px) {
+    .step-item {
+        flex-direction: row;
+    }
+}
+
 .step-item div:first-child {
     background-color: #00000080;
     padding: 33px;
     border-radius: 12px;
-    margin: 0;
+    margin-bottom: 32px;
 }
 
 // Navigation
