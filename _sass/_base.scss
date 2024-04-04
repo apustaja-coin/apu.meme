@@ -407,8 +407,11 @@ header {
 
 .socials {
     flex-direction: column;
-    @media screen (min-width: 576px) {
+    @media (min-width: 576px) {
         flex-direction: row;
+    }
+    div {
+        padding: 16px 0;
     }
 }
 
