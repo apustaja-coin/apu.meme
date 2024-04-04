@@ -96,6 +96,7 @@ aside {
 }
 
 .step-item div:first-child {
+    display: flex;
     background-color: #00000080;
     padding: 33px;
     border-radius: 12px;
@@ -128,7 +129,7 @@ aside {
             > a:focus {
                 font-weight: 700;
                 font-size: 20px;
-                color: $theme-dark;
+                color: $theme-light;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -191,6 +192,14 @@ aside {
 
 #mainNav {
     width: 100vw !important;
+}
+
+.affix {
+    background-color: rgba(0,0,0,0.58);
+}
+
+.affix-top {
+    background-color: rgba(0,0,0,0.3);
 }
 
 nav .logo-img {
@@ -361,6 +370,22 @@ header {
 
 .btn-primary:hover {
     box-shadow: 0px 10px 14px 0px #d3cde9ba;
+}
+
+.btn-contract {
+    color: #62cd64;
+    background-color: #15141f;
+    border-color: #3c763d;
+    -webkit-text-stroke: 1px #000000;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.btn-contract:hover {
+    color: #79e77b;
+    background-color: #201f30;
+    border-color: #519b52;
 }
 
 .btn {
