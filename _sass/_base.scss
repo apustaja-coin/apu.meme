@@ -405,6 +405,13 @@ header {
     font-size: 4em;
 }
 
+.socials {
+    flex-direction: column;
+    @media screen (min-width: 576px) {
+        flex-direction: row;
+    }
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
