@@ -285,12 +285,10 @@ header {
         height: 48px;
         border-radius: 32px;
         padding: 0px;
-        scale:.75;
         @media (min-width: 320px){
             width: 64px;
             height: 64px;
             padding: 8px;
-            scale: unset !important;;
         }
     }
 }
