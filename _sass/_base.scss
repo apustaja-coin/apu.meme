@@ -270,6 +270,27 @@ header {
     }
 }
 
+.hero-links {
+    margin: auto;
+    max-width: 512px;
+    padding-top: 11rem;
+    display:flex;
+    align-items:center;
+    @media (max-width: 540px){
+        display: none !important;
+    }
+    div a {
+        display: block;
+        width: 64px;
+        height: 64px;
+        border-radius: 48px;
+        @media (min-width: 768px){
+            width: 96px;
+            height: 96px;
+        }
+    }
+}
+
 // Sections
 
 .section-heading {
