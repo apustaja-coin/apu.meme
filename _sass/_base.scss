@@ -224,7 +224,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 24vh 24px;
+        padding: 17vh 1.6rem 9vh;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -272,21 +272,25 @@ header {
 
 .hero-links {
     margin: auto;
-    max-width: 512px;
+    max-width: 384px;
     padding-top: 11rem;
     display:flex;
     align-items:center;
     @media (max-width: 540px){
-        display: none !important;
+        //display: none !important;
     }
     div a {
         display: block;
-        width: 64px;
-        height: 64px;
-        border-radius: 48px;
-        @media (min-width: 768px){
-            width: 96px;
-            height: 96px;
+        width: 48px;
+        height: 48px;
+        border-radius: 32px;
+        padding: 0px;
+        scale:.75;
+        @media (min-width: 320px){
+            width: 64px;
+            height: 64px;
+            padding: 8px;
+            scale: unset !important;;
         }
     }
 }
