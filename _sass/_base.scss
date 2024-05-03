@@ -111,12 +111,11 @@ aside {
 }
 
 .navbar-default {
-    @include sans-serif-font;
+    @include heading-font;
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-primary;
-        -webkit-text-stroke: 1px $theme-primary-shade;
-        @include sans-serif-font;
+        @include heading-font;
         font-weight: 700;
         &:hover,
         &:focus {
@@ -150,7 +149,6 @@ aside {
         background-color: transparent;
         .navbar-header .navbar-brand {
             color: $theme-primary;
-            -webkit-text-stroke: 1px $theme-primary-shade;
             &:hover,
             &:focus {
                 color: white;
@@ -159,7 +157,6 @@ aside {
         .nav > li > a,
         .nav > li > a:focus {
             color: $theme-primary;
-            -webkit-text-stroke: 1px $theme-primary-shade;
             &:hover {
                 color: white;
             }
@@ -168,7 +165,6 @@ aside {
             background-color: $theme-dark;
             .navbar-header .navbar-brand {
                 color: $theme-primary;
-                -webkit-text-stroke: 1px $theme-primary-shade;
                 font-size: 20px;
                 &:hover,
                 &:focus {
@@ -178,7 +174,6 @@ aside {
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-primary;
-                -webkit-text-stroke: 1px $theme-primary-shade;
                 &:hover {
                     color: $theme-primary;
                 }
@@ -272,7 +267,7 @@ header {
 
 .hero-links {
     margin: auto;
-    max-width: 384px;
+    max-width: 48rem;
     padding-top: 11rem;
     display:flex;
     align-items:center;
@@ -290,6 +285,19 @@ header {
             height: 64px;
             padding: 8px;
         }
+    }
+    
+}
+
+.hero-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -387,7 +395,7 @@ header {
 }
 
 .btn-primary {
-    @include button-variant(#608200, $theme-primary, $theme-primary-border, #334030);
+    @include button-variant(#608200, $theme-primary, $theme-primary-border, #48733e);
     box-shadow: 0px 4px 14px 0px #d3cde9ba;
 }
 
@@ -396,6 +404,9 @@ header {
 }
 
 .btn-contract {
+    font-family: "Ubuntu Mono", monospace !important;
+    font-weight: 400;
+    font-style: normal;
     color: #62cd64;
     background-color: #15141f;
     border-color: #3c763d;
@@ -412,20 +423,30 @@ header {
 }
 
 .btn {
-    @include sans-serif-font;
+    @include heading-font;
     border-radius: 16px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .btn-xl {
     padding: 12px 24px;
+    font-size: 28px;
 }
 
 // Contact
-#contact .fa {
-    color: $theme-dark;
-    font-size: 4em;
+
+.footer-links {
+    padding-top: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .socials {

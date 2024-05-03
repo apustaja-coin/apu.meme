@@ -58,17 +58,19 @@
 
 @mixin sans-serif-font()
 {
-	font-family: "Poppins", sans-serif;
+	font-family: "Ubuntu Mono", monospace !important;
 }
 
 @mixin serif-font()
 {
-	font-family: "Poppins", sans-serif;
+	font-family: "Ubuntu Mono", monospace !important;
 }
 
 @mixin heading-font()
 {
-	font-family: 'Genty', sans-serif;
+	font-family: "Gloria Hallelujah", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
 @mixin lemongrass-font()
