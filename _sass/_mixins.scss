@@ -68,5 +68,25 @@
 
 @mixin heading-font()
 {
-	font-family: "Lexend", sans-serif;
+	font-family: 'Genty', sans-serif;
+}
+
+@mixin lemongrass-font()
+{
+	font-family: "lemongrass-script", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Genty';
+	src: url('fonts/Genty.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Genty';
+	src: url('fonts/GentyDemo-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
