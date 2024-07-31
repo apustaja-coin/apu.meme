@@ -213,7 +213,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/background-min.jpg');
+    background-image: url('../img/background.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -268,7 +268,7 @@ header {
 .hero-links {
     margin: auto;
     max-width: 48rem;
-    padding-top: 11rem;
+    padding-top: 16rem;
     display:flex;
     align-items:center;
     @media (max-width: 540px){
@@ -303,6 +303,13 @@ header {
 
 .hero-links div a:hover {
     scale: 1.125;
+}
+
+.jup-verified {
+    padding-top:16px;
+    span {
+        font-size: 16px
+    }
 }
 
 // Sections
@@ -436,6 +443,24 @@ header {
 .btn-xl {
     padding: 12px 24px;
     font-size: 28px;
+}
+
+.btn-jup {
+    border-radius: 22px;
+    border: 2px solid #C6F462;
+    background: #141726;
+    box-shadow: 0px 5px 12px 0px rgba(184, 177, 214, 0.46);
+    display: inline-flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: "Gloria Hallelujah";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 // Contact
